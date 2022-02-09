@@ -35,11 +35,11 @@ server will be run on localhost:5050
 ```http
   POST /candel
 ```
-| Parameter               | Type              | Description                                           | default     |
-| :---------------------- | ----------------  | :-----------------------------------------------------|-------------|
-| `transactions`          | `array`           | **Required**. array of your transactions              |             |
-| `time_frame`            | `number`          |  requested time frame (minute)                          |      1      |
-| `output_timestamp_type` | `string (s / ms)` |  choose type of candels timestamp,second or milisecond|      s      |
+| Parameter               | Type              | Description                                           | default|
+| :---------------------- | ----------------  | :-----------------------------------------------------|--------|
+| `transactions`          | `array`           | **Required**. array of your transactions              |        |
+| `time_frame`            | `number`          |  requested time frame (minute)                        |      1 |
+| `output_timestamp_type` | `string (s / ms)` |  choose type of candels timestamp,second or milisecond|      s |
 
 #### Example
 
