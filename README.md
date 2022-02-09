@@ -74,7 +74,7 @@ server will be run on localhost:5050
             "close": 301,
             "high": 301,
             "low": 20,
-            "time": 1644394447,
+            "time": 1644394447000,
             "volume": 0
         }
     ]
