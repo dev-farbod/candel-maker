@@ -15,7 +15,7 @@ const makeCandel = async (timeFrame, transactions, out) => {
         { each.amount ? each.amount = each.amount : each.amount = 0 }
         each.timestamp = Number(each.timestamp.toString().slice(0, 10))
     })
-    // geting start and end time from first and last transaction
+    // geting start time and end time from first and last transaction
     let from = transactions[0].timestamp,
         to = transactions[transactions.length - 1].timestamp
 
