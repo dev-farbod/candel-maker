@@ -9,17 +9,17 @@ clone repo
 git clone https://github.com/dev-farbod/candel-maker.git
 ```
 
-Use the package manager [npm](https://nodejs.org/) to install dependencies.
-
-```bash
-npm install
-```
-
 clone to directori
 
 ```bash
 cd candel-maker
 ```
+
+Use the package manager [npm](https://nodejs.org/) to install dependencies.
+
+```bash
+npm install
+``
 
 run server
 
