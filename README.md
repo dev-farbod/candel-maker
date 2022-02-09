@@ -79,8 +79,8 @@ server will be run on localhost:5050
     "candels": [
         {
             "open": 20,
-            "close": 301,
-            "high": 301,
+            "close": 30,
+            "high": 30,
             "low": 20,
             "time": 1644394447000,
             "volume": 4
