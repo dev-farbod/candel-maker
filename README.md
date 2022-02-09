@@ -49,11 +49,13 @@ server will be run on localhost:5050
 	"transactions":[
 		{
 			"timestamp":"1644394447",
-			"price":"30"
+			"price":"30",
+			"amount":2
 		},
 			{
 			"timestamp":1644394437,
-			"price":20
+			"price":20,
+			"amount":2
 		}
 		],
 		"time_frame":"2",
@@ -75,7 +77,7 @@ server will be run on localhost:5050
             "high": 301,
             "low": 20,
             "time": 1644394447000,
-            "volume": 0
+            "volume": 4
         }
     ]
 }
