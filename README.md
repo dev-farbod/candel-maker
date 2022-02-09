@@ -7,24 +7,30 @@ clone repo
 
 ```bash
 git clone https://github.com/dev-farbod/candel-maker.git
+
 ```
 
 clone to directori
 
 ```bash
+
 cd candel-maker
+
 ```
 
 Use the package manager [npm](https://nodejs.org/) to install dependencies.
 
 ```bash
 npm install
+
 ``
 
 run server
 
 ```bash
+
 node index.js
+
 ```
 server will be run on localhost:5050
 
