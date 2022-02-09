@@ -41,5 +41,46 @@ server will be run on localhost:5050
 | `time_frame`            | `number`          |  request time frame (minute)                          |      1      |
 | `output_timestamp_type` | `string (s / ms)` |  choose type of candels timestamp,second or milisecond|      s      |
 
+#### Example
+
+
+```json
+{
+	"transactions":[
+		{
+			"timestamp":"1644394447",
+			"price":"30"
+		},
+			{
+			"timestamp":1644394437,
+			"price":20
+		}
+		],
+		"time_frame":"2",
+    "output_timestamp_type":"ms"
+}
+
+```
+
+#### response
+
+```json
+{
+    "status": true,
+    "msg": "",
+    "candels": [
+        {
+            "open": 20,
+            "close": 301,
+            "high": 301,
+            "low": 20,
+            "time": 1644394447,
+            "volume": 0
+        }
+    ]
+}
+```
+
+
 
 
